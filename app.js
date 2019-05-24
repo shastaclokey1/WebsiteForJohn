@@ -8,19 +8,19 @@ app.set("view engine", "ejs");
 //app.use(express.static(_dirname + "/public"));
 
 app.get("/", function(request, response) {
-    response.send("this will be the landing page");
+    response.render("landing");
 });
 
 app.get("/about", function(request, response) {
-    response.send("this will be the about page");
+    response.render("about");
 });
 
 app.get("/portfolio", function(request, response) {
-    response.send("this will be the portfolio page");
+    response.render("portfolio");
 });
 
 app.get("/contact", function(request, response) {
-    response.send("this will be the contact page");
+    response.render("contact");
 });
 
 app.get("*", function(request, response) {
@@ -29,4 +29,4 @@ app.get("*", function(request, response) {
 
 app.listen(process.env.PORT || 3000, function() {
     console.log("Server has started for John's website");
-})
+});
