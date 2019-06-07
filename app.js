@@ -5,7 +5,7 @@ var app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
-//app.use(express.static(_dirname + "/public"));
+app.use(express.static("public"));
 
 app.get("/", function(request, response) {
     response.render("landing");
