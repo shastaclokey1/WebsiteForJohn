@@ -42,12 +42,12 @@ body {
 .slideshow li:nth-child(1) { 
     background-image: url(/images/IMG_2125.JPG) 
 }
-.slideshow li:nth-child(2) { 
-    background-image: url(/images/multimeter.JPG);
+.slideshow li:nth-child(2) {  
+    background-image: url(https://images.unsplash.com/photo-1553873002-785d775854c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-    background-image: url(/images/toolBelt.JPG);
+    background-image: url(https://images.unsplash.com/photo-1454694220579-9d6672b1ec2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
@@ -55,7 +55,7 @@ body {
     animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-    background-image: url(/images/lightsHangingFromCeiling.JPG);
+    background-image: url(https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     animation-delay: 40s; 
 }
 
